@@ -97,13 +97,14 @@
   color: #fff;
 }
 
-.social {
+.social ul {
   padding-top: 22px;
   margin-left: 35px;
   margin-right: 161px;
   display: flex;
   text-align: center;
   gap: 21px;
+  list-style: none;
 }
 
 .div img {
