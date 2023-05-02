@@ -78,6 +78,8 @@ To run the project, execute the following command:
 
 - GitHub: [@boniface0](https://github.com/boniface0)
 - LinkedIn: [boniface maingi](https://www.linkedin.com/in/boniface-maingi-20a684251/)
+- Twitter: [@Bony29906115](https://twitter.com/Bony29906115/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
