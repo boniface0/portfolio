@@ -106,13 +106,15 @@
   list-style: none;
 }
 
-.div img {
+.div{
   position: absolute;
-  width: 180px;
+  width: 190px;
   height: 314px;
   right: 0;
   z-index: 2;
-  top: 370px;
-  object-fit: fill;
+  top: 330px;
   margin-bottom: 5px;
+  background-image: url(/images/illustration-header-mobile.png);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
 }
