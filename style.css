@@ -106,7 +106,7 @@
   list-style: none;
 }
 
-.div{
+.div {
   position: absolute;
   width: 190px;
   height: 314px;
@@ -115,6 +115,6 @@
   top: 330px;
   margin-bottom: 5px;
   background-image: url(/images/illustration-header-mobile.png);
-  background-size:100% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
