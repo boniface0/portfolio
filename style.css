@@ -259,6 +259,16 @@
   margin-left: 16px;
 }
 
+.list li {
+  padding-top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
 .works2 ul li {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
@@ -338,7 +348,7 @@
   text-decoration: none;
   width: 156px;
   padding: 12px;
-  background: #FF6B00;
+  background: #ff6b00;
   margin-top: 24px !important;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -389,9 +399,10 @@
 .rotate1 {
   width: 18px !important;
   height: 18px !important;
-  background: #FF6B00;
+  background: #ff6b00;
   transform: rotate(-45deg);
 }
+
 .rotate1p {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
@@ -403,20 +414,11 @@
 .list {
   list-style: none;
 }
-.list li {
-  padding-top: 12px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  color: #fff;
-}
 
 .rotate2 {
   width: 18px !important;
   height: 18px !important;
-  background: #FF6B00;
+  background: #ff6b00;
   margin-top: 44px;
 }
 
@@ -433,13 +435,13 @@
 .rotate3 {
   width: 18px !important;
   height: 18px !important;
-  background: #FF6B00;
+  background: #ff6b00;
   border-radius: 150px;
   margin-top: 44px;
 }
 
 .rotate3p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
