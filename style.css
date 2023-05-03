@@ -392,12 +392,13 @@
   background: #FF6B00;
   transform: rotate(-45deg);
 }
-.skill_item h2 {
+.rotate1p {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px
+  line-height: 44px;
+  color: #fff;
 }
 .list {
   list-style: none;
