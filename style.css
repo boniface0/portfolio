@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:ital,wght@0,700;1,400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -117,4 +117,332 @@
   background-image: url(/images/illustration-header-mobile.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+/* works section */
+
+#works {
+  background: #FFFFFF;
+  height: 900px;
+}
+
+#works h1 {
+  padding-top: 120px;
+  margin-right: 24px;
+  margin-left: 24px;
+  color: #1C1A19;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Crete Round', sans-serif;
+}
+
+#works hr {
+ margin-top: 24px;
+ margin-left: 24px;
+ margin-right: 24px;
+ border: 1px bold;
+}
+
+.works_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 80px;
+}
+
+.desc h3 {
+  margin-top: 24px;
+  color: #091E42;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+.desc p{
+  margin-top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091E42;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  list-style: none;
+}
+
+.buttons li {
+  cursor: pointer;
+  align-items: center;
+  padding: 10px 12px;
+  background: #FFFFFF;
+  color: #091E42 !important;
+  border: 1px solid #8993A4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.buttons button:enabled:hover {
+  background-color: black;
+  color: white;
+}
+
+.seeproject {
+  padding-top: 16px;
+}
+
+.seeproject a {
+  text-decoration: none;
+  padding: 12px;
+  background: #FF6B00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.seeproject a:hover {
+  background-color: black;
+  color: white;
+}
+
+.works2 {
+  position: relative;
+  margin-top: 24px;
+  height: 386px;
+  width: 100%;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/background.png)
+}
+
+.works2 h1 {
+  font-family: 'Crete Round', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 40px !important;
+  line-height: 44px !important;
+  color: #fff !important;
+  margin-top: -45px;
+  margin-left: 16px !important;
+}
+
+.works2 p {
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  color: #FFFFFF;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 12px;
+}
+
+.works2 ul {
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+  gap: 12px;
+  margin-left: 16px;
+}
+
+.works2 ul li {
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.seeproject_button {
+  width: 100%;
+  padding:12px ;
+  background: #FF6B00 !important;
+  margin-top: 22px !important;
+  margin-left: 0px !important;
+  text-align: center;
+  justify-content: center !important;
+}
+
+.seeproject_button a {
+  width: 100%;
+  text-decoration: none;
+  margin-top: 24px !important;
+  justify-content: center;
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px !important;
+  line-height: 24px;
+  cursor: pointer;
+  color: #fff;
+  align-items: center;
+}
+
+.seeproject_button a:enabled:hover {
+  background: black;
+  color: white;
+}
+
+.aboutmyself1 {
+  position: relative;
+  margin-top: 120px;
+  height: 1801px;
+  background: #1C1A19;
+}
+
+.abtme {
+  padding-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.abtme h2 {
+  font-family: 'Crete Round', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 72px !important;
+  line-height: 88px !important;
+  letter-spacing: 0.37px !important;
+  color: #FF6B00 !important;
+}
+
+.abtme p {
+  padding-top: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #F4F5F7;
+  margin-bottom: 24px;
+}
+
+.abtme .link {
+  text-decoration: none;
+  width: 156px;
+  padding: 12px;
+  background: #FF6B00;
+  margin-top: 24px !important;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.background_image {
+  position: absolute;
+  width: 200px;
+  height: 258px;
+  right: 0 !important;
+  background: url(/images/illustration-about-me-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 350px;
+}
+
+.hr {
+  margin-top: 209px !important;
+}
+
+.skills { 
+  margin-top: 136px !important;
+  width: 100%;
+  text-align: center;
+  justify-content: center;  
+}
+
+.skiils ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
+.skill_item {
+  display: flex;
+  text-align: center;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.rotate1 {
+  width: 18px !important;
+  height: 18px !important;
+  background: #FF6B00;
+  transform: rotate(-45deg);
+}
+.skill_item h2 {
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px
+}
+.list {
+  list-style: none;
+}
+.list li {
+  padding-top: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.rotate2 {
+  width: 18px !important;
+  height: 18px !important;
+  background: #FF6B00;
+  margin-top: 44px;
+}
+
+.rotate2p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 44px;
+}
+
+.rotate3 {
+  width: 18px !important;
+  height: 18px !important;
+  background: #FF6B00;
+  border-radius: 150px;
+  margin-top: 44px;
+}
+
+.rotate3p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 44px;
 }
