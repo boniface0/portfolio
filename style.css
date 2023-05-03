@@ -122,15 +122,26 @@
 /* works section */
 
 #works {
-  background: #FFFFFF;
+  background: #fff;
   height: 900px;
+}
+
+.works2 h1 {
+  font-family: 'Crete Round', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 40px !important;
+  line-height: 44px !important;
+  color: #fff !important;
+  margin-top: -45px;
+  margin-left: 16px !important;
 }
 
 #works h1 {
   padding-top: 120px;
   margin-right: 24px;
   margin-left: 24px;
-  color: #1C1A19;
+  color: #1c1a19;
   font-size: 40px;
   line-height: 52px;
   font-weight: 400;
@@ -139,10 +150,10 @@
 }
 
 #works hr {
- margin-top: 24px;
- margin-left: 24px;
- margin-right: 24px;
- border: 1px bold;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border: 1px bold;
 }
 
 .works_container {
@@ -155,13 +166,14 @@
 
 .desc h3 {
   margin-top: 24px;
-  color: #091E42;
+  color: #091e42;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
 }
+
 .desc p{
   margin-top: 12px;
   font-family: 'Inter', sans-serif;
@@ -169,7 +181,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .buttons {
@@ -183,9 +195,9 @@
   cursor: pointer;
   align-items: center;
   padding: 10px 12px;
-  background: #FFFFFF;
-  color: #091E42 !important;
-  border: 1px solid #8993A4;
+  background: #fff;
+  color: #091e42 !important;
+  border: 1px solid #8993a4;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -205,13 +217,13 @@
 .seeproject a {
   text-decoration: none;
   padding: 12px;
-  background: #FF6B00;
+  background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -240,18 +252,7 @@
   margin-top: 24px;
   height: 386px;
   width: 100%;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/background.png)
-}
-
-.works2 h1 {
-  font-family: 'Crete Round', sans-serif !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  font-size: 40px !important;
-  line-height: 44px !important;
-  color: #fff !important;
-  margin-top: -45px;
-  margin-left: 16px !important;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/background.png);
 }
 
 .works2 p {
@@ -260,7 +261,7 @@
   font-weight: 400 !important;
   font-size: 16px !important;
   line-height: 30px !important;
-  color: #FFFFFF;
+  color: #fff;
   margin-left: 13px;
   margin-right: 13px;
   margin-top: 12px;
@@ -287,7 +288,7 @@
 .works2 ul li {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -297,10 +298,10 @@
 
 .seeproject_button {
   width: 100%;
-  padding:12px ;
-  background: #FF6B00 !important;
+  padding: 12px;
+  background: #ff6b00 !important;
   margin-top: 22px !important;
-  margin-left: 0px !important;
+  margin-left: 0 !important;
   text-align: center;
   justify-content: center !important;
 }
