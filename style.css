@@ -205,11 +205,6 @@
   line-height: 20px;
 }
 
-.buttons button:enabled:hover {
-  background-color: black;
-  color: white;
-}
-
 .seeproject {
   padding-top: 16px;
 }
@@ -243,8 +238,14 @@
 }
 
 .seeproject a:hover {
-  background-color: black;
-  color: white;
+  color: #ff6b00 !important;
+  border: 1px solid #ff6b00 !important;
+  background: transparent;
+}
+
+.seeproject a:active {
+  background: #ff6b00;
+  color: #fff !important;
 }
 
 .works2 {
@@ -286,6 +287,7 @@
 }
 
 .works2 ul li {
+  cursor: pointer;
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
   font-family: 'Inter', sans-serif;
@@ -304,11 +306,17 @@
   margin-left: 0 !important;
   text-align: center;
   justify-content: center !important;
+  cursor: pointer;
 }
 
-.seeproject_button a:enabled:hover {
-  background: black;
-  color: white;
+.seeproject_button:hover {
+  color: #ff6b00 !important;
+  border: 1px solid #ff6b00 !important;
+  background: transparent !important;
+}
+
+.seeproject_button a:hover {
+  color: #ff6b00;
 }
 
 .aboutmyself1 {
@@ -357,6 +365,17 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+}
+
+.abtme a:hover {
+  color: #ff6b00 !important;
+  border: 1px solid #ff6b00 !important;
+  background: #fff;
+}
+
+.abtme a:active {
+  background:#ff6b00;
+  color: #fff !important;
 }
 
 .background_image {
